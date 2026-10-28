@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* Warna latar belakang utama aplikasi */
+.root {
+    -fx-background-color: #f0f4f8;
+}
+
+/* Desain untuk semua Tombol (Button) */
+.button {
+    -fx-background-color: #0056b3;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+/* Efek saat mouse berada di atas tombol (Hover) */
+.button:hover {
+    -fx-background-color: #007BFF;
+}
+
+/* Efek saat tombol sedang diklik (Pressed) */
+.button:pressed {
+    -fx-background-color: #003d82;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+/* Desain baru untuk Kotak Teks Output (TextArea) */
+.text-area {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif; /* Mengubah dari Consolas ke font modern */
+    -fx-font-size: 15px; /* Memperbesar ukuran tulisan */
+    -fx-font-weight: bold; /* Membuat tulisan menjadi agak tebal */
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #b3c6ff;
+    -fx-border-width: 2px;
+}
+
+/* Mengubah warna teks di dalam area output menjadi biru gelap */
+.text-area .text {
+    -fx-fill: #003d82; 
+}
+
+.text-area .content {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 6px;
+}
